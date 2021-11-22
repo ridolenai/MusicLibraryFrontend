@@ -1,6 +1,8 @@
 import DisplayMusic from "./DisplayMusic/DisplayMusic";
 import { Component } from "react";
 import axios from "axios";
+import Form from "./Form/Form";
+
 
 class App extends Component {
     constructor(props) {
@@ -40,7 +42,11 @@ class App extends Component {
     //come back to finish render method to design output
     render() { 
         return (
+
+            <div className = "container-fluid">
             <DisplayMusic/>
+            <Form/>
+            </div>
           );
     }
 }

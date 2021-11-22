@@ -32,7 +32,7 @@ class DisplayMusic extends Component {
         return (
             <div>
             <h1>Look at All the Amazing Music</h1>
-            <table> <thead>
+            {/* <table> <thead>
                 <th> Title</th>
                 <th> Artist</th>
                 <th> Album</th>
@@ -40,7 +40,7 @@ class DisplayMusic extends Component {
                 <th> Genre</th>
                 
                 </thead></table>
-            
+             */}
             </div>
             );
     }
